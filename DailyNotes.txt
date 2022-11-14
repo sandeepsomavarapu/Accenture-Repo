@@ -1,0 +1,88 @@
+
+
+
+
+three layers 
+
+UI       backend layer        db layer 
+
+
+	Html,CSS,JS,TS,Angular,Node,MERN,MEAN
+
+
+HTML-->static web pages  
+			
+			CSS3->3 ways inline,internal,external	  mystyles.css	 bootstrap.css(twitter)
+
+	
+			<h1 style="color:red;">welcome to accenture </h1>
+	one.html  two.html
+			<link rel="stylesheet" href="mystyles.css"/>
+			<link rel="stylesheet" href="bootstrap.css"/>
+			<style>
+			selector{proname1:propvalue;.......}
+			</style>
+			
+			id selector			#idname
+			class selector  	.classname
+			
+			element selector	h1
+			group selector		h1,h2....
+			all selector		*
+			
+	   dynamic web pages
+		
+	#id1{color:red}
+	
+	#id2{background-color:"yellow"}
+	
+	.class1{color:red}
+	
+	.class2{background-color:"yellow"}
+
+
+		<h1 id="id1">welcome to accenture </h1>
+
+		<h2 id="id1">welcome to india </h2>
+		
+		<h3 class="class1 class2">welcome to hyderabad </h3>
+		
+		<h4 class="class2">welcome to mumbai </h4>
+
+
+JavaScript:
+===========
+	<html>
+<head>
+<script src="myjs.js"></script>
+<script src="angular.js"></script>	
+	
+	</script>
+
+		</head>
+
+
+external
+
+		myjs.js
+
+		
+
+		variables				 var age=23;  dynamic typed programming  int a=123
+		functions
+		flow control		if,else,switch,for,while,dowhile.....
+		events
+		objects
+		validations...
+
+
+		function addOfTwo(var a,var b)
+		{
+		return a+b;
+		
+		}
+
+
+
+
+
