@@ -81,8 +81,99 @@ external
 		return a+b;
 		
 		}
+		
+		
+		
 
+TypeScript:	microsoft 2012 free source and open source
+===========
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  
-
-
+		var name="sandeep";//dynamic typed programming
+			name=1234;
+		var result:boolean=true	
+			
+			
+		function addOfTwo( a:number, b:number):number
+		{
+		return a+b;//25
+		
+		}
+		
+			addOfTwo(12,13);//valid
+			
+			addOfTwo("sandeep",true);//invalid
+			
+			
+			ES6
+			
+			1)type safety @Compile time 
+			
+			2)classes,interface,inheritance,modules,....
+			
+			ES-->specification	 SOA				Jpa	
+			
+		JS 		TS				webservices		Hibernate
+		
+		
+			
+	typescript based JS frameworks		
+			
+				Angular,Dojo,
+			
+			
+			var name="sandeep";//JS	dynamic typed programming
+				name=1234;//valid
+			var name:string="sandeep";//TS static typed programming
+				name=2345;//invalid
+			
+			
+			TS=JS+Type
+			
+			browser -->document 
+			
+			TS-->JS--->Browser 
+			
+			
+			translator--->translation
+			
+			Compiler--->Compailation
+			
+			TSC Ts-->Js-->transpilation
+			
+			
+			Ts--->Js...
+			
+nodejs 			
+			
+		node -->		
+			
+			
+			
+Angular :
+=========
+angular js
+		
+	angular 2,4,6,7,8,9......		
+			
+	SPA-->component 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
