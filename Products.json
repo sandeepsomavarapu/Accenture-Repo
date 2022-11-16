@@ -1,0 +1,30 @@
+[
+
+{
+"productId" : 10,
+"productName" : "Samsung"
+"productPrice":23000
+"productQuantity":20
+},
+
+{
+"productId" : 11,
+"productName" : "Dell"
+"productPrice":42000
+"productQuantity":12
+},
+{
+"productId" : 12,
+"productName" : "sony"
+"productPrice":13000
+"productQuantity":70
+},
+
+{
+"productId" : 13,
+"productName" : "acer"
+"productPrice":52800
+"productQuantity":5
+},
+
+]
