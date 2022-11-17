@@ -156,24 +156,109 @@ angular js
 	angular 2,4,6,7,8,9......		
 			
 	SPA-->component 
+
+routing	
+forms  	event binding 
+bootstrap
+Json with services(HttpClient )Observable
+authguards
+component communication
+unit testing 
+	
+	
+	.table
+	{
 	
 	
 	
+	}
+	
+	
+	<h1 class="table"> </h1>
+	
+	
+	webservices:
+	============
+	
+	JSON
+			
+	productid producname productprice prodcutquantity
 	
 	
 	
+	Observable and Promise
 	
 	
 	
+	javascript is single threaded lang	
 	
 	
 	
+	Asynchronous
+	
+		Promise 	native	js
+		
+		Observable  not related to the angular / JS
+	
+	https://www.infragistics.com/community/blogs/b/infragistics/posts/angular-observable-vs-angular-promise
 	
 	
+	    //promise
+    const promise = new Promise(resolve => {
+      console.log("promise call.....");
+      setTimeout(() => {
+        resolve('promise is working');
+        resolve('promise is working1');
+        resolve('promise is working2');
+        resolve('promise is working3');
+
+      }, 1000
+      )
+    });
+    promise.then(result => console.log(result))
+    //Observable
+    const observable = new Observable(sub => {
+      console.log("observable call...")
+      setTimeout(() => {
+        sub.next('Observable is working');
+        sub.next('Observable is working1');
+        sub.next('Observable is working2');
+        sub.next('Observable is working3');
+      }, 1000
+      )
+    });
+    observable.pipe(filter(data=>data ==='Observable is working2')).subscribe(result => console.log(result))
+
 	
 	
-	
-	
-	
+	Promise											
+
+Promises execute immediately on
+creation. Promises are eager
+
+Promises emit single value
+
+Promise don't have operators
+
+Promise can't be cancel
+
+
+Observable
+
+Observables are declarative;
+computation does not start until
+subscription. Its Lazy
+
+Emits multiple values over a period of
+time
+
+Observables provides operatos like map,
+filter , reduce, retry, that is useful for
+complex transformation
+
+Observables can be cancel using
+unscribe method
+
+ 
 	
 	
