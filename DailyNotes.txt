@@ -260,5 +260,10 @@ Observables can be cancel using
 unscribe method
 
  
+	CanActivate
 	
+	to generate guards in angular
 	
+	ng g guard guardname
+	
+		
